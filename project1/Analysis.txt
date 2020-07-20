@@ -1,0 +1,24 @@
+Data Structures & Algorithms Nanodegree Program 
+Project1 - Unscramble Computer Science Problems
+
+# Run time analysis
+
+*** Task0.py ***
+Time Complexity: O(1)
+Description: Input does not affect run time. There are two lines executing accesses to lists
+
+*** Task1.py ***
+Time Complexity: O(n)
+Description: Two lists are looped through once each. O(2n) -> O(n)
+
+*** Task2.py ***
+Time Complexity: O(n)
+Description: List is looped through once and second list is also looped through once
+
+*** Task3.py ***
+Time Complexity: O(n + log n)
+Description: For loop and python list sorting operations
+
+*** Task4.py ***
+Time Complexity: O(n+ log n)
+Description: For loop and python list sorting operations 
