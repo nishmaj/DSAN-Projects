@@ -41,14 +41,22 @@ class Blockchain:
 
 blockchain = Blockchain()
 
-blockchain.add_block('1) First String to encode')
+blockchain.add_block('1) First String')
 print(blockchain.current_block)
 
-blockchain.add_block('2) Second String to encode')
+blockchain = Blockchain()
+blockchain.add_block('2) Second String to')
 print(blockchain.current_block)
 
+blockchain = Blockchain()
 blockchain.add_block('3) Third String to encode')
 print(blockchain.current_block)
 
-blockchain.add_block('4) Forth String to encode')
+blockchain = Blockchain()
+blockchain.add_block('4) Forth String to encode in block')
+print(blockchain.current_block)
+
+# Edge Cases:
+blockchain = Blockchain()
+blockchain.add_block('')
 print(blockchain.current_block)

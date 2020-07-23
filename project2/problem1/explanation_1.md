@@ -1,4 +1,4 @@
-Problem 1  -- LRU cache
+# Problem 1  -- LRU cache
 
 The LRU cache utilizes an internal doubly linked list (DLL) with two pointers ( head, tail ) to maintin the least-recently-used structure and a hash map or dictionary to retrieve items in the cache.
 
@@ -14,4 +14,4 @@ Time complexity of set() is O(1)
 Since there is no loops hence constant time
 
 Space complexity of set() is O(n) 
-Since the dictionary is as large as the amount fo keys.
+Since the dictionary is as large as the amount of n keys.

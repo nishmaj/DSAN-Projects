@@ -178,3 +178,26 @@ if __name__ == "__main__":
     encoded_data, tree = huffman_coding.encode(test_sentence)
 
     decoded_data = huffman_coding.decode(encoded_data, tree)
+
+    print("**** Test 5 ****\nEmpty string\n")
+    test_sentence = " "
+
+    print ("The size of the data is: {}\n".format(sys.getsizeof(test_sentence)))
+    print ("The content of the data is: {}\n".format(test_sentence))
+
+    encoded_data, tree = huffman_coding.encode(test_sentence)
+
+    print ("The size of the encoded data is: {}\n".format(sys.getsizeof(int(encoded_data, base=2))))
+    print ("The content of the encoded data is: {}\n".format(encoded_data))
+
+    decoded_data = huffman_coding.decode(encoded_data, tree)
+
+    print ("The size of the decoded data is: {}\n".format(sys.getsizeof(decoded_data)))
+    print ("The content of the encoded data is: {}\n".format(decoded_data))
+
+    print ("The size of the data is: {}\n".format(sys.getsizeof(test_sentence)))
+    print ("The content of the data is: {}\n".format(test_sentence))
+
+    encoded_data, tree = huffman_coding.encode(test_sentence)
+
+    decoded_data = huffman_coding.decode(encoded_data, tree)
